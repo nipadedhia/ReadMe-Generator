@@ -20,5 +20,7 @@
   "bugs": {
     "url": "https://github.com/nipadedhia/ReadMe-Generator/issues"
   },
-  "homepage": "https://github.com/nipadedhia/ReadMe-Generator#readme"
+  "homepage": "https://github.com/nipadedhia/ReadMe-Generator#readme",
+  "devDependencies": {},
+  "keywords": []
 }
