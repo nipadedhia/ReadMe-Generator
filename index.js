@@ -2,12 +2,15 @@ const axios = require("axios");
 const inquirer = require("inquirer");
 const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown.js");
-
 // const writeFileAsync = util.promisify(fs.writeFile);
 
-// const questions = [];
+const writeToFile = (fileName, data) => {
+  fs.writeFile(fileName + ".md", data, (error) =>
+    error ? console.error(error) : console.log(`${fileName + ".md"} generated!`)
+  );
+};
 
-const inquirer = () => {
+const questions = () => {
   return inquirer.prompt([
     {
       type: "input",
@@ -58,8 +61,17 @@ const inquirer = () => {
   ]);
 };
 
-function writeToFile(fileName, data) {}
+async function init() {
+  try {
+    const answers = await questions();
 
-function init() {}
+    const readMe = generateMarkdown(answers);
 
+    await writeFileAsync("ReadMe.md", readMe);
+
+    console.log("Successfully generated Readme file ");
+  } catch (err) {
+    console.log(err);
+  }
+}
 init();
