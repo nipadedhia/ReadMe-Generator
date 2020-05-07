@@ -1,8 +1,9 @@
+const fs = require("fs");
 const axios = require("axios");
 const inquirer = require("inquirer");
 const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown.js");
-// const writeFileAsync = util.promisify(fs.writeFile);
+const writeFileAsync = util.promisify(fs.writeFile);
 
 const writeToFile = (fileName, data) => {
   fs.writeFile(fileName + ".md", data, (error) =>
