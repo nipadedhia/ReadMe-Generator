@@ -21,7 +21,7 @@ __Contributors:__
 ${data.contributors}
 
 __Tests:__
-${data.test}
+${data.tests}
 
 __Questions:__
 ${data.questions}

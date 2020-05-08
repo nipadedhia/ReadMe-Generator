@@ -4,20 +4,20 @@
 ![License: None](https://img.shields.io/badge/License-None-brightgreen) ![Tweeting](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)
 
 __Description:__
-Dynamically generates ReadMe
+Dynamically generates ReadMe file
 
 __Installation:__
 npm i
 
 __Usage:__
-
+creates ReadMe
 
 __Contributors:__
-None
+Nipa
 
 __Tests:__
 undefined
 
 __Questions:__
-
+Contact if you have any questions
 
