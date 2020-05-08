@@ -4,20 +4,20 @@
 ![License: None](https://img.shields.io/badge/License-None-brightgreen) ![Tweeting](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)
 
 __Description:__
-Dynamically generates ReadMe file
+Creates ReadMe dynamically
 
 __Installation:__
-npm i
+To Install necessary dependencies, run the command: npm i
 
 __Usage:__
 creates ReadMe
 
 __Contributors:__
-Nipa
+None at this point
 
 __Tests:__
-undefined
+npm test
 
 __Questions:__
-Contact if you have any questions
+Contact if have any questions
 
