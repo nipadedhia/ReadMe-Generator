@@ -39,11 +39,11 @@ const questions = () => {
       name: "usage",
       message: "What is the usage?",
     },
-    {
-      type: "input",
-      name: "license",
-      message: "What is the license",
-    },
+    // {
+    //   type: "input",
+    //   name: "license",
+    //   message: "What is the license",
+    // },
     {
       type: "input",
       name: "contributors",
