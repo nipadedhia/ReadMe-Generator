@@ -6,9 +6,7 @@ const generateMarkdown = (data) => {
     data.license ? data.license : "None"
   }](https://img.shields.io/badge/License-${
     data.license ? data.license : "None"
-  }-brightgreen)
-
-![Tweeting](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)
+  }-brightgreen) ![Tweeting](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)
 
 __Description:__
 ${data.description}

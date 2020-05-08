@@ -24,11 +24,7 @@ const questions = () => {
       name: "description",
       message: "What is the project description?",
     },
-    {
-      type: "input",
-      name: "contents",
-      message: "Table of Contents",
-    },
+
     {
       type: "input",
       name: "installation",
@@ -39,11 +35,7 @@ const questions = () => {
       name: "usage",
       message: "What is the usage?",
     },
-    // {
-    //   type: "input",
-    //   name: "license",
-    //   message: "What is the license",
-    // },
+
     {
       type: "input",
       name: "contributors",
